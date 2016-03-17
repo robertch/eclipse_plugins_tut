@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.pde.ui.pluginWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1458121508275_1" label="eclipse tuts" name="eclipse tuts">
+<item factoryID="org.eclipse.pde.ui.elementFactory" org.eclipse.pde.workingSetKey="com.ht.clock"/>
+<item factoryID="org.eclipse.pde.ui.elementFactory" org.eclipse.pde.workingSetKey="com.ht.hw"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1458121430652_0" label="Window Working Set" name="Aggregate for window 1458121430651"/>
+<mruList name="eclipse tuts"/>
+</workingSetManager>

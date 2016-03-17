@@ -1,0 +1,7 @@
+package com.ht.clock.util;
+
+import org.eclipse.jface.viewers.ViewerComparator;
+
+public class TimeZoneViewerComparator extends ViewerComparator {
+
+}

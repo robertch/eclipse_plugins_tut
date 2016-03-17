@@ -1,0 +1,15 @@
+package com.ht.clock.util;
+
+import java.util.Comparator;
+import java.util.TimeZone;
+
+public class TimeZoneComparator implements Comparator<TimeZone> {
+
+	@Override
+	public int compare(TimeZone o1, TimeZone o2) {
+		return o1.getID().compareTo(o2.getID());
+	}
+	public static getTimeZones(){
+		
+	}
+}

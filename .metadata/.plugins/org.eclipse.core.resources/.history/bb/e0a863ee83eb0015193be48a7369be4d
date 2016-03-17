@@ -1,0 +1,23 @@
+package com.ht.clock.util;
+
+import java.util.Comparator;
+import java.util.Map;
+import java.util.Set;
+import java.util.TimeZone;
+import java.util.TreeMap;
+
+public class TimeZoneComparator implements Comparator<TimeZone> {
+
+	@Override
+	public int compare(TimeZone o1, TimeZone o2) {
+		return o1.getID().compareTo(o2.getID());
+	}
+	public static Map<String, Set<TimeZone>> getTimeZones(){
+		Map<String, Set<TimeZone>> timezones = new TreeMap<String,Set<TimeZone>>();
+		for (String timezone : TimeZone.getAvailableIDs()) {
+			String[] parts = timezone.split("/";)
+		}
+		return null;
+		
+	}
+}

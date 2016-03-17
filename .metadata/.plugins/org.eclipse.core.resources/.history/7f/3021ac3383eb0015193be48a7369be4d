@@ -1,0 +1,13 @@
+package com.ht.clock.util;
+
+import java.util.Comparator;
+
+public class TimeZoneComparator implements Comparator {
+
+	@Override
+	public int compare(T arg0, T arg1) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

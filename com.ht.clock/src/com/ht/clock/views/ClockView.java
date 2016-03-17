@@ -26,8 +26,7 @@ public class ClockView extends ViewPart {
 	public void createPartControl(Composite parent) {
 		Object[] oo = parent.getDisplay().getDeviceData().objects;
 		int c = 0;
-		for (int i = 0; i < oo.length; i++) 
-				if(oo[i] instanceof Color) c++;
+		for (int i = 0; i < oo.length; i++) if(oo[i] instanceof Color) c++;
 		System.err.println("c = "+c);
 		RowLayout layout = new RowLayout(SWT.HORIZONTAL);
 		parent.setLayout(layout);

@@ -1,0 +1,40 @@
+package com.ht.clock.views;
+
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+import java.util.TimeZone;
+
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.custom.CTabFolder;
+import org.eclipse.swt.custom.CTabItem;
+import org.eclipse.swt.widgets.Composite;
+import org.eclipse.ui.part.ViewPart;
+
+import com.ht.clock.util.TimeZoneComparator;
+
+public class TimeZoneView extends ViewPart {
+
+	public TimeZoneView() {
+	}
+
+	@Override
+	public void createPartControl(Composite parent) {
+		Map<String,Set<TimeZone>> timezones = TimeZoneComparator.getTimeZones();
+		CTabFolder tabs = new CTabFolder(parent, SWT.BOTTOM);
+		Iterator<Entry<String,Set<TimeZone>>> regionIterator = timezones.entrySet().iterator();
+		while(regionIterator.hasNext()){
+			Entry<String,Set<TimeZone>> region = regionIterator.next();
+			CTabItem item = new CTabItem(tabs, SWT.NONE);
+			item.setText(region.getKey());
+		}
+		tab.setSelection(0);
+	}
+
+	@Override
+	public void setFocus() {
+
+	}
+
+}

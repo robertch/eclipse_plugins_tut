@@ -1,0 +1,7 @@
+package com.ht.clock.util;
+
+import java.util.Comparator;
+
+public class TimeZoneComparator implements Comparator<T> {
+
+}
