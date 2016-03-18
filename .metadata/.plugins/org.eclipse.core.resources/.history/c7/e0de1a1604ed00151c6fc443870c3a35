@@ -1,0 +1,18 @@
+package com.ht.clock.util;
+
+import org.eclipse.jface.dialogs.MessageDialog;
+import org.eclipse.swt.graphics.Image;
+import org.eclipse.swt.widgets.Shell;
+
+public class TimeZoneDialog extends MessageDialog {
+	private TimeZone timeZone;
+
+	public TimeZoneDialog(Shell parentShell, String dialogTitle,
+			Image dialogTitleImage, String dialogMessage, int dialogImageType,
+			String[] dialogButtonLabels, int defaultIndex) {
+		super(parentShell, dialogTitle, dialogTitleImage, dialogMessage,
+				dialogImageType, dialogButtonLabels, defaultIndex);
+		// TODO Auto-generated constructor stub
+	}
+
+}

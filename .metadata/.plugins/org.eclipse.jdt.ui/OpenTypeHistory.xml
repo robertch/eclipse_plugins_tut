@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=com.ht.clock/\/usr\/lib\/jvm\/java-1.8.0-openjdk-1.8.0.72-1.b15.fc22.x86_64\/jre\/lib\/rt.jar&lt;java.lang(Comparable.class[Comparable" modifiers="1537" timestamp="1453977510000"/>
-<typeInfo handle="=com.ht.clock/\/usr\/lib\/jvm\/java-1.8.0-openjdk-1.8.0.72-1.b15.fc22.x86_64\/jre\/lib\/rt.jar&lt;java.util(Comparator.class[Comparator" modifiers="1537" timestamp="1453977510000"/>
-<typeInfo handle="=com.ht.clock/src&lt;com.ht.clock.views{TimeZoneView.java[TimeZoneView" modifiers="1" timestamp="1458142371000"/>
+<typeInfo handle="=com.ht.clock/src&lt;com.ht.clock.views{TimeZoneView.java[TimeZoneView" modifiers="1" timestamp="1458310961000"/>
+<typeInfo handle="=com.ht.clock/\/home\/rc\/eclipse\/eclipse_rcp_luna\/plugins\/org.eclipse.jface_3.10.2.v20141021-1035.jar&lt;org.eclipse.jface.viewers(LabelProvider.class[LabelProvider" modifiers="33" timestamp="1427279631000"/>
+<typeInfo handle="=com.ht.clock/\/home\/rc\/eclipse\/eclipse_rcp_luna\/plugins\/org.eclipse.jface_3.10.2.v20141021-1035.jar&lt;org.eclipse.jface.viewers(ITreeContentProvider.class[ITreeContentProvider" modifiers="1537" timestamp="1427279631000"/>
+<typeInfo handle="=com.ht.clock/\/home\/rc\/eclipse\/eclipse_rcp_luna\/plugins\/org.eclipse.jface_3.10.2.v20141021-1035.jar&lt;org.eclipse.jface.viewers(ViewerComparator.class[ViewerComparator" modifiers="33" timestamp="1427279631000"/>
+<typeInfo handle="=com.ht.clock/\/home\/rc\/eclipse\/eclipse_rcp_luna\/plugins\/org.eclipse.jface_3.10.2.v20141021-1035.jar&lt;org.eclipse.jface.dialogs(MessageDialog.class[MessageDialog" modifiers="33" timestamp="1427279631000"/>
+<typeInfo handle="=com.ht.clock/\/home\/rc\/eclipse\/eclipse_rcp_luna\/plugins\/org.eclipse.ui.views_3.7.0.v20140408-0703.jar&lt;org.eclipse.ui.views.properties(IPropertySource.class[IPropertySource" modifiers="1537" timestamp="1402559721000"/>
+<typeInfo handle="=com.ht.clock/\/home\/rc\/eclipse\/eclipse_rcp_luna\/plugins\/org.eclipse.equinox.common_3.6.200.v20130402-1505.jar&lt;org.eclipse.core.runtime(IAdapterFactory.class[IAdapterFactory" modifiers="1537" timestamp="1402559719000"/>
+<typeInfo handle="=com.ht.clock/\/home\/rc\/eclipse\/eclipse_rcp_luna\/plugins\/org.eclipse.jface_3.10.2.v20141021-1035.jar&lt;org.eclipse.jface.viewers(ColumnLabelProvider.class[ColumnLabelProvider" modifiers="33" timestamp="1427279631000"/>
+<typeInfo handle="=com.ht.clock/src&lt;com.ht.clock.util.table{TimeZoneColumn.java[TimeZoneColumn" modifiers="1025" timestamp="1458313271000"/>
 </typeInfoHistroy>

@@ -1,0 +1,17 @@
+package com.ht.clock.util;
+
+import java.util.TimeZone;
+
+import org.eclipse.jface.dialogs.IDialogConstants;
+import org.eclipse.jface.dialogs.MessageDialog;
+import org.eclipse.swt.widgets.Shell;
+
+public class TimeZoneDialog extends MessageDialog {
+	private TimeZone timeZone;
+
+	public TimeZoneDialog(Shell parentShell, TimeZone timeZone) {
+		super(parentShell, timeZone.getID(), null, "Strefa czasowa " + timeZone.getID(),
+				INFORMATION, new String[]{IDialogConstants.OK_LABEL}, 0);
+	}
+
+}

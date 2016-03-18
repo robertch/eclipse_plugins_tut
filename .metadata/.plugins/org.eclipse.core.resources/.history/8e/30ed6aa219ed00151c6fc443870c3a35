@@ -1,0 +1,7 @@
+package com.ht.clock.util.table;
+
+import org.eclipse.jface.viewers.ColumnLabelProvider;
+
+public class TimeZoneColumn extends ColumnLabelProvider {
+
+}

@@ -11,6 +11,17 @@
 			<item value="true" key="create_unimplemented"/>
 		</section>
 	</section>
+	<section name="org.eclipse.pde.ui.dialogs.PluginSelectionDialog">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="606" key="DIALOG_WIDTH"/>
+			<item value="1|Cantarell|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+			<item value="503" key="DIALOG_HEIGHT"/>
+			<item value="537" key="DIALOG_X_ORIGIN"/>
+			<item value="262" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="targetStateView">

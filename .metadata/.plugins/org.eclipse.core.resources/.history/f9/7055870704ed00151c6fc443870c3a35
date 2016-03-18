@@ -1,0 +1,7 @@
+package com.ht.clock.util;
+
+import org.eclipse.jface.dialogs.MessageDialog;
+
+public class TimeZoneDialog extends MessageDialog {
+
+}
