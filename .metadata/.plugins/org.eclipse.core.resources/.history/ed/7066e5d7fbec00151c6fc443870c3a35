@@ -1,7 +1,0 @@
-package com.ht.clock.util;
-
-import ViewerFilter;
-
-public class TimeZoneViewwerFilter extends ViewerFilter {
-
-}

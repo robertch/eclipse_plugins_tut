@@ -1,4 +1,4 @@
 #NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Fri Mar 18 16:05:27 CET 2016
-@default-models-http\://download.eclipse.org/recommenders/models/luna/.lastUpdated=1458313527522
+#Fri Mar 25 13:10:13 CET 2016
+@default-models-http\://download.eclipse.org/recommenders/models/luna/.lastUpdated=1458907813148
 http\://download.eclipse.org/recommenders/models/luna/.error=Could not transfer artifact jre\:jre\:zip\:call\:1.0.0-SNAPSHOT from/to models (http\://download.eclipse.org/recommenders/models/luna/)\: Connection to http\://download.eclipse.org refused

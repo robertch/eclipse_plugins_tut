@@ -9,4 +9,5 @@
 <typeInfo handle="=com.ht.clock/\/home\/rc\/eclipse\/eclipse_rcp_luna\/plugins\/org.eclipse.equinox.common_3.6.200.v20130402-1505.jar&lt;org.eclipse.core.runtime(IAdapterFactory.class[IAdapterFactory" modifiers="1537" timestamp="1402559719000"/>
 <typeInfo handle="=com.ht.clock/\/home\/rc\/eclipse\/eclipse_rcp_luna\/plugins\/org.eclipse.jface_3.10.2.v20141021-1035.jar&lt;org.eclipse.jface.viewers(ColumnLabelProvider.class[ColumnLabelProvider" modifiers="33" timestamp="1427279631000"/>
 <typeInfo handle="=com.ht.clock/src&lt;com.ht.clock.util.table{TimeZoneColumn.java[TimeZoneColumn" modifiers="1025" timestamp="1458313271000"/>
+<typeInfo handle="=com.ht.clock/\/home\/rc\/eclipse\/eclipse_rcp_luna\/plugins\/org.eclipse.core.commands_3.6.100.v20140528-1422.jar&lt;org.eclipse.core.commands(AbstractHandler.class[AbstractHandler" modifiers="1057" timestamp="1402559718000"/>
 </typeInfoHistroy>

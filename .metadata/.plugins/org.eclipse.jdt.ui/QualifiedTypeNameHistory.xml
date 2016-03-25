@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.eclipse.swt.layout.RowLayout"/>
-<fullyQualifiedTypeName name="com.ht.clock.util.ClockWidget"/>
-<fullyQualifiedTypeName name="org.eclipse.swt.widgets.Group"/>
-<fullyQualifiedTypeName name="org.eclipse.swt.layout.FillLayout"/>
-<fullyQualifiedTypeName name="org.eclipse.swt.custom.ScrolledComposite"/>
-<fullyQualifiedTypeName name="org.eclipse.swt.graphics.Point"/>
-<fullyQualifiedTypeName name="org.eclipse.swt.widgets.Display"/>
-<fullyQualifiedTypeName name="org.eclipse.jface.viewers.TreeViewer"/>
 <fullyQualifiedTypeName name="javax.inject.Inject"/>
 <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 <fullyQualifiedTypeName name="java.util.Collection"/>
@@ -35,11 +27,8 @@
 <fullyQualifiedTypeName name="org.eclipse.jface.viewers.ViewerFilter"/>
 <fullyQualifiedTypeName name="org.eclipse.jface.viewers.DoubleClickEvent"/>
 <fullyQualifiedTypeName name="org.eclipse.jface.viewers.IDoubleClickListener"/>
-<fullyQualifiedTypeName name="org.eclipse.jface.viewers.Viewer"/>
 <fullyQualifiedTypeName name="org.eclipse.swt.widgets.Shell"/>
-<fullyQualifiedTypeName name="org.eclipse.jface.dialogs.MessageDialog"/>
 <fullyQualifiedTypeName name="org.eclipse.jface.viewers.ISelection"/>
-<fullyQualifiedTypeName name="org.eclipse.jface.viewers.IStructuredSelection"/>
 <fullyQualifiedTypeName name="org.eclipse.jface.dialogs.IDialogConstants"/>
 <fullyQualifiedTypeName name="org.eclipse.swt.graphics.RGB"/>
 <fullyQualifiedTypeName name="com.ht.clock.util.TimeZoneDialog"/>
@@ -55,9 +44,20 @@
 <fullyQualifiedTypeName name="org.eclipse.jface.viewers.TableViewer"/>
 <fullyQualifiedTypeName name="org.eclipse.swt.SWT"/>
 <fullyQualifiedTypeName name="org.eclipse.swt.widgets.TableColumn"/>
-<fullyQualifiedTypeName name="java.util.TimeZone"/>
 <fullyQualifiedTypeName name="com.ht.clock.views.TimeZoneTableView"/>
 <fullyQualifiedTypeName name="com.ht.clock.util.table.TimeZoneIDColumn"/>
 <fullyQualifiedTypeName name="com.ht.clock.util.table.TimeZoneNameColumn"/>
 <fullyQualifiedTypeName name="com.ht.clock.util.table.TimeZoneOffsetColumn"/>
+<fullyQualifiedTypeName name="org.eclipse.ui.IWorkbenchPart"/>
+<fullyQualifiedTypeName name="org.eclipse.jface.viewers.Viewer"/>
+<fullyQualifiedTypeName name="org.eclipse.jface.viewers.IStructuredSelection"/>
+<fullyQualifiedTypeName name="java.util.TimeZone"/>
+<fullyQualifiedTypeName name="org.eclipse.jface.viewers.StructuredViewer"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.events.SelectionListener"/>
+<fullyQualifiedTypeName name="org.eclipse.ui.ISelectionListener"/>
+<fullyQualifiedTypeName name="com.ht.clock.util.TimeZoneSelectionListener"/>
+<fullyQualifiedTypeName name="org.eclipse.jface.action.MenuManager"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.widgets.Menu"/>
+<fullyQualifiedTypeName name="org.eclipse.jface.action.Action"/>
+<fullyQualifiedTypeName name="org.eclipse.jface.dialogs.MessageDialog"/>
 </qualifiedTypeNameHistroy>

@@ -29,11 +29,11 @@
 		</section>
 	</section>
 	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
-		<item value="615" key="DIALOG_WIDTH"/>
+		<item value="617" key="DIALOG_WIDTH"/>
 		<item value="1|Cantarell|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
-		<item value="880" key="DIALOG_HEIGHT"/>
+		<item value="871" key="DIALOG_HEIGHT"/>
 		<item value="533" key="DIALOG_X_ORIGIN"/>
-		<item value="74" key="DIALOG_Y_ORIGIN"/>
+		<item value="-49" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="NewClassWizardPage">
 		<item value="false" key="create_constructor"/>
@@ -49,9 +49,9 @@
 		<item value="false" key="FinalModifier"/>
 	</section>
 	<section name="DialogBounds_OverrideMethodDialog">
-		<item value="623" key="DIALOG_WIDTH"/>
+		<item value="625" key="DIALOG_WIDTH"/>
 		<item value="1|Cantarell|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
-		<item value="608" key="DIALOG_HEIGHT"/>
+		<item value="599" key="DIALOG_HEIGHT"/>
 		<item value="183" key="DIALOG_X_ORIGIN"/>
 		<item value="4" key="DIALOG_Y_ORIGIN"/>
 	</section>
