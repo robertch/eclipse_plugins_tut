@@ -1,0 +1,47 @@
+package com.ht.clock.util;
+import org.eclipse.core.commands.AbstractHandler;
+import org.eclipse.core.commands.ExecutionEvent;
+import org.eclipse.core.commands.ExecutionException;
+import org.eclipse.core.runtime.IProgressMonitor;
+import org.eclipse.core.runtime.IStatus;
+import org.eclipse.core.runtime.Status;
+import org.eclipse.core.runtime.jobs.Job;
+import org.eclipse.jface.dialogs.MessageDialog;
+import org.eclipse.swt.widgets.Display;
+
+
+public class HelloHandler extends AbstractHandler {
+
+	@Override
+	public Object execute(ExecutionEvent event) throws ExecutionException {
+		Job job = new Job("Wątek w Eclipse"){
+
+			@Override
+			protected IStatus run(IProgressMonitor monitor) {
+				try {
+					monitor.beginTask("Rozpoczęcię", 5000);
+					for (int i = 0; i < 5 && !monitor.isCanceled(); i++) {
+						Thread.sleep(1000);
+						monitor.worked(1000);
+					}
+				} catch (InterruptedException e) {
+				} finally{
+					monitor.done();
+				}
+				if(!monitor.isCanceled()){
+					Display.getDefault().asyncExec(new Runnable(){
+						@Override
+						public void run() {
+							MessageDialog.openInformation(null, "Wątek", "w Eclipse");
+						}
+					});
+				}
+				return Status.OK_STATUS;
+			}
+			
+		};
+		job.schedule();
+		return null;
+	}
+
+}

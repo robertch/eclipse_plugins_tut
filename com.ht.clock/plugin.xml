@@ -59,8 +59,8 @@
  <extension
        point="org.eclipse.ui.handlers">
     <handler
-          class="HelloHandler"
-          commandId="com.ht.clock.handlers.HelloHandler">
+          class="com.ht.clock.util.HelloHandler"
+          commandId="com.ht.clock.commands.TestComm">
     </handler>
  </extension>
  <extension
@@ -74,5 +74,14 @@
              style="push">
        </command>
     </menuContribution>
+ </extension>
+ <extension
+       point="org.eclipse.ui.bindings">
+    <key
+          commandId="com.ht.clock.commands.TestComm"
+          contextId="org.eclipse.ui.contexts.window"
+          schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+          sequence="M1+9">
+    </key>
  </extension>
 </plugin>
