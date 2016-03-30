@@ -84,4 +84,12 @@
           sequence="M1+9">
     </key>
  </extension>
+ <extension
+       point="org.eclipse.ui.preferencePages">
+    <page
+          class="com.ht.clock.pages.ZegarPreferencesPage"
+          id="com.ht.clock.pages.Zegar"
+          name="Zegar">
+    </page>
+ </extension>
 </plugin>

@@ -86,6 +86,9 @@ public class Activator extends AbstractUIPlugin {
 				});
 			}
 		});
+		int launchCount = getPreferenceStore().getInt("launchCount");
+		System.out.println("Uruchomiono mnie "+launchCount+" razy(y)");
+		getPreferenceStore().setValue("launchCount", ++launchCount);
 	}
 
 	/*

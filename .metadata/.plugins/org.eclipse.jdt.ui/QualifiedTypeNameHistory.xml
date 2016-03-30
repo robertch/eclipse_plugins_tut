@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="com.ht.clock.util.TimeZoneComparator"/>
-<fullyQualifiedTypeName name="com.ht.clock.util.TimeZoneViewerComparator"/>
 <fullyQualifiedTypeName name="com.ht.clock.util.TimeZoneViewwerFilter"/>
 <fullyQualifiedTypeName name="org.eclipse.jface.viewers.ViewerFilter"/>
 <fullyQualifiedTypeName name="org.eclipse.jface.viewers.DoubleClickEvent"/>
@@ -58,6 +55,9 @@
 <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
 <fullyQualifiedTypeName name="org.eclipse.core.runtime.IStatus"/>
 <fullyQualifiedTypeName name="org.eclipse.core.runtime.Status"/>
-<fullyQualifiedTypeName name="com.ht.clock.Activator"/>
 <fullyQualifiedTypeName name="org.eclipse.ui.statushandlers.StatusManager"/>
+<fullyQualifiedTypeName name="org.eclipse.jface.preference.FieldEditorPreferencePage"/>
+<fullyQualifiedTypeName name="org.eclipse.jface.preference.IntegerFieldEditor"/>
+<fullyQualifiedTypeName name="com.ht.clock.Activator"/>
+<fullyQualifiedTypeName name="org.eclipse.jface.preference.ComboFieldEditor"/>
 </qualifiedTypeNameHistroy>
