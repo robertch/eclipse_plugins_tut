@@ -1,0 +1,112 @@
+package com.ht.newwizard;
+
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
+import java.util.Properties;
+import java.util.ResourceBundle;
+
+import org.eclipse.core.resources.IFile; 
+import org.eclipse.core.resources.IProject;
+import org.eclipse.core.resources.IWorkspace;
+import org.eclipse.core.resources.ResourcesPlugin;
+import org.eclipse.core.runtime.CoreException;
+import org.eclipse.core.runtime.IProgressMonitor;
+import org.eclipse.core.runtime.SubMonitor;
+import org.eclipse.jface.dialogs.IMessageProvider;
+import org.eclipse.jface.operation.IRunnableWithProgress;
+import org.eclipse.jface.viewers.IStructuredSelection;
+import org.eclipse.jface.wizard.Wizard;
+import org.eclipse.ui.INewWizard;
+import org.eclipse.ui.IWorkbench;
+
+public class NewWizard extends Wizard implements INewWizard{
+	
+	public static final String FEEDS_FILE = "news.feed";
+	public static final String FEEDS_PROJECT = "bookmarks";
+	
+	private NewFeedPage newfeedPage = new NewFeedPage(); 
+	@Override
+	public boolean performFinish() {
+		String url = newfeedPage.getUrl();
+		String description = newfeedPage.getDescription();
+		try {
+			boolean fork = false;
+			boolean cancel = true;
+			getContainer().run(fork, cancel, new IRunnableWithProgress(){
+
+				@Override
+				public void run(IProgressMonitor monitor)
+						throws InvocationTargetException, InterruptedException {
+					
+						try {
+							if(url != null && description!=null){
+								addFeed(url, description,monitor);
+							}
+						} catch (CoreException e) {
+							e.printStackTrace();
+						} catch (IOException e) {
+							e.printStackTrace();
+						}
+				}
+			});
+			
+			return true;
+		} catch (InvocationTargetException e) {
+			newfeedPage.setMessage(e.toString(),IMessageProvider.ERROR);
+			return false;
+		} catch (InterruptedException e) {
+			newfeedPage.setMessage(e.toString(),IMessageProvider.ERROR);
+			return false;
+		}
+		
+		
+	}
+
+	@Override
+	public void addPages() {
+		addPage(newfeedPage);
+		setHelpAvailable(true);
+	}
+	
+	private IFile getFile(String project,String name,
+			IProgressMonitor monitor) throws CoreException{
+		IWorkspace workspace = ResourcesPlugin.getWorkspace();
+		IProject bookmarks = workspace.getRoot().getProject(project);
+		if(!bookmarks.exists()){
+			bookmarks.create(monitor);
+		}
+		if(!bookmarks.isOpen()){
+			bookmarks.open(monitor);
+		}
+		return bookmarks.getFile(name);
+	}
+	
+	private synchronized void addFeed(String url, String description, IProgressMonitor monitor) 
+			throws CoreException, IOException{
+		SubMonitor subMonitor = SubMonitor.convert(monitor,2);
+		if(subMonitor.isCanceled()) return;
+		Properties feeds = new Properties();
+		IFile file = getFile(FEEDS_PROJECT, FEEDS_FILE, subMonitor);
+		subMonitor.worked(1);
+		if(file.exists()){
+			feeds.load(file.getContents());
+		}
+		if(subMonitor.isCanceled()) return;
+		feeds.setProperty(url, description);
+		ByteArrayOutputStream baos = new ByteArrayOutputStream();
+		feeds.store(baos,null);
+		ByteArrayInputStream bais = new ByteArrayInputStream(baos.toByteArray());
+		if(file.exists()){
+			file.setContents(bais,true,false,subMonitor);
+		}else {
+			file.create(bais, true, null);
+		}
+	}
+
+	@Override
+	public void init(IWorkbench workbench, IStructuredSelection selection) {
+		
+	}
+}

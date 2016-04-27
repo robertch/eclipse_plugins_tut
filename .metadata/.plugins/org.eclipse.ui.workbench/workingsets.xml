@@ -3,6 +3,7 @@
 <workingSet editPageId="org.eclipse.pde.ui.pluginWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1458121508275_1" label="eclipse tuts" name="eclipse tuts">
 <item factoryID="org.eclipse.pde.ui.elementFactory" org.eclipse.pde.workingSetKey="com.ht.clock"/>
 <item factoryID="org.eclipse.pde.ui.elementFactory" org.eclipse.pde.workingSetKey="com.ht.hw"/>
+<item factoryID="org.eclipse.pde.ui.elementFactory" org.eclipse.pde.workingSetKey="com.ht.newwizard"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1458121430652_0" label="Window Working Set" name="Aggregate for window 1458121430651"/>
 <mruList name="eclipse tuts"/>

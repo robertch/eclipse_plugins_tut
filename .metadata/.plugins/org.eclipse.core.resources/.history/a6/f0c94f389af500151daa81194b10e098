@@ -1,5 +1,0 @@
-package com.ht.clock.util;
-
-public class ThreadedActionHandler extends Abstra{
-
-}

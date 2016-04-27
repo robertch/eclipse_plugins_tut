@@ -1,0 +1,16 @@
+package com.ht.newwizard;
+
+import org.eclipse.jface.wizard.WizardPage;
+import org.eclipse.swt.widgets.Composite;
+
+public class NewPage extends WizardPage {
+	protected NewPage() {
+		super("NewFeedPage");
+	}
+
+	@Override
+	public void createControl(Composite parent) {
+
+	}
+
+}

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<list key="workingset_selection_history">
+		<item value="eclipse tuts"/>
+	</list>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item value="650" key="dialogHeight"/>
 		<item value="1044" key="dialogWidth"/>
@@ -13,6 +16,11 @@
 		</list>
 	</section>
 	<section name="NewWizardAction">
+		<item value="org.eclipse.pde.ui.NewProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui.examples.contributions.wizardCategory"/>
+			<item value="org.eclipse.pde.PDE"/>
+		</list>
 	</section>
 	<section name="ImportExportAction">
 		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
