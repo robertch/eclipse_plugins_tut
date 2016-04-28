@@ -34,7 +34,6 @@ public class NewFeedPage extends WizardPage {
 		super("NewFeedPage");
 		setTitle("Add New Feed");
 		setMessage("a message");
-		setNeedsProgressMonitor(true);
 	}
 
 	@Override

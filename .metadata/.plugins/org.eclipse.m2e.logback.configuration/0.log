@@ -54,3 +54,6 @@ org.eclipse.jdt.core.JavaModelException: Index out of bounds
 2016-04-27 13:46:38,089 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-8.1.16.v20140903
 2016-04-27 13:46:38,111 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started SelectChannelConnector@127.0.0.1:46292
 2016-04-27 16:43:59,959 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - stopped o.e.j.s.ServletContextHandler{/help,null}
+2016-04-28 09:52:27,752 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-8.1.16.v20140903
+2016-04-28 09:52:27,781 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started SelectChannelConnector@127.0.0.1:33466
+2016-04-28 12:23:36,132 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - stopped o.e.j.s.ServletContextHandler{/help,null}

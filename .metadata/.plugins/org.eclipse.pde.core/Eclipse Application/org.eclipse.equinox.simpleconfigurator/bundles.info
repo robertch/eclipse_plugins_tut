@@ -15,6 +15,7 @@ com.google.inject,3.0.0.v201312141243,file:/home/rc/eclipse/eclipse_rcp_luna/plu
 com.google.inject.multibindings,3.0.0.v201402270930,file:/home/rc/eclipse/eclipse_rcp_luna/plugins/com.google.inject.multibindings_3.0.0.v201402270930.jar,4,false
 com.ht.clock,1.0.0.qualifier,file:/home/rc/scripts/java/eclipse_plugins_tut/com.ht.clock/,4,false
 com.ht.hw,1.0.0.qualifier,file:/home/rc/scripts/java/eclipse_plugins_tut/com.ht.hw/,4,false
+com.ht.newwizard,1.0.0.qualifier,file:/home/rc/scripts/java/eclipse_plugins_tut/com.ht.newwizard/,4,false
 com.ibm.icu,52.1.1.v201501240615,file:/home/rc/eclipse/eclipse_rcp_luna/plugins/com.ibm.icu_52.1.1.v201501240615.jar,4,false
 com.jcraft.jsch,0.1.51.v201410302000,file:/home/rc/eclipse/eclipse_rcp_luna/plugins/com.jcraft.jsch_0.1.51.v201410302000.jar,4,false
 com.jcraft.jsch,0.1.50.v201403120620,file:/home/rc/eclipse/eclipse_rcp_luna/plugins/com.jcraft.jsch_0.1.50.v201403120620.jar,4,false

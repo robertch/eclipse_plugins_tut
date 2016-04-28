@@ -3814,3 +3814,133 @@ Binding(ALT+CTRL+A,
 
 !ENTRY org.eclipse.recommenders.models.rcp 1 0 2016-04-27 16:39:02.641
 !MESSAGE org.eclipse.equinox:org.eclipse.equinox.common:call:zip:3.0.0 could not be resolved from model repositories. Are you offline?
+!SESSION 2016-04-28 09:45:27.603 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_77
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pl_PL
+Framework arguments:  -product org.eclipse.epp.package.rcp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.rcp.product
+
+!ENTRY org.eclipse.core.net 1 0 2016-04-28 09:45:37.171
+!MESSAGE System property http.proxyHost is not set but should be poczta2.heuthesd.
+
+!ENTRY org.eclipse.core.net 1 0 2016-04-28 09:45:37.173
+!MESSAGE System property http.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.jface 2 0 2016-04-28 09:45:37.407
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-28 09:45:37.407
+!MESSAGE A conflict occurred for ALT+CTRL+D:
+Binding(ALT+CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.UpdateToRevisionCommand,Update to Revision,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10d4b573,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+D,
+	ParameterizedCommand(Command(de.bastiankrol.startexplorer.startShellFromResourceViewCommand,Start Shell Here,
+		Opens a new shell/command line prompt,
+		Category(de.bastiankrol.startexplorer.commands.category,StartExplorer,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@50785f86,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-28 09:45:37.407
+!MESSAGE A conflict occurred for ALT+CTRL+E:
+Binding(ALT+CTRL+E,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.MergeCommand,Merge...,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7c3c3d67,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+E,
+	ParameterizedCommand(Command(de.bastiankrol.startexplorer.startFileManagerFromResourceViewCommand,Show in File Manager,
+		Starts a new file manager (Windows Explorer, Nautilus, Konqueror...) instance showing the selected files and folders,
+		Category(de.bastiankrol.startexplorer.commands.category,StartExplorer,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e258d3b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-28 09:45:37.407
+!MESSAGE A conflict occurred for ALT+CTRL+P:
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand,Select Maven Profiles,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2b6fcca1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.CreatePatchCommand,Create Patch...,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39f93225,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-28 09:45:37.407
+!MESSAGE A conflict occurred for ALT+CTRL+C:
+Binding(ALT+CTRL+C,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.CommitCommand,Commit...,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@24b3f778,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+C,
+	ParameterizedCommand(Command(de.bastiankrol.startexplorer.copyResourcePathToClipboardFromResourceView,Copy Resource Path to Clipboard,
+		Copies the path of the resource to the clipboard,
+		Category(de.bastiankrol.startexplorer.commands.category,StartExplorer,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@164dea80,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-04-28 09:45:37.407
+!MESSAGE A conflict occurred for ALT+CTRL+A:
+Binding(ALT+CTRL+A,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.ShowAnnotationCommand,Show Annotation...,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4392362c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+A,
+	ParameterizedCommand(Command(de.bastiankrol.startexplorer.startSystemApplicationFromResourceViewCommand,Open Files With Default Application,
+		Opens this file with the application that is registered for this file type in your operating system,
+		Category(de.bastiankrol.startexplorer.commands.category,StartExplorer,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@338a4c61,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2016-04-28 09:52:27.598
+!MESSAGE org.eclipse.jface:org.eclipse.jface:call:zip:3.0.0 could not be resolved from model repositories. Are you offline?
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2016-04-28 10:45:22.171
+!MESSAGE org.eclipse.jface:org.eclipse.jface:call:zip:3.0.0 could not be resolved from model repositories. Are you offline?
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2016-04-28 10:45:23.378
+!MESSAGE org.eclipse.core:org.eclipse.core.resources:call:zip:3.0.0 could not be resolved from model repositories. Are you offline?
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2016-04-28 10:45:32.703
+!MESSAGE org.eclipse.core:org.eclipse.core.resources:call:zip:3.0.0 could not be resolved from model repositories. Are you offline?
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2016-04-28 10:45:33.916
+!MESSAGE org.eclipse.core:org.eclipse.core.resources:call:zip:3.0.0 could not be resolved from model repositories. Are you offline?
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2016-04-28 10:46:21.008
+!MESSAGE org.eclipse.core:org.eclipse.core.resources:call:zip:3.0.0 could not be resolved from model repositories. Are you offline?
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2016-04-28 10:46:27.827
+!MESSAGE org.eclipse.core:org.eclipse.core.resources:call:zip:3.0.0 could not be resolved from model repositories. Are you offline?
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2016-04-28 10:46:54.621
+!MESSAGE org.eclipse.jface:org.eclipse.jface:call:zip:3.0.0 could not be resolved from model repositories. Are you offline?

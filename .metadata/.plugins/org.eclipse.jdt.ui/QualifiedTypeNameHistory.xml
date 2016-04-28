@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.eclipse.ui.ISelectionListener"/>
 <fullyQualifiedTypeName name="com.ht.clock.util.TimeZoneSelectionListener"/>
 <fullyQualifiedTypeName name="org.eclipse.jface.action.MenuManager"/>
 <fullyQualifiedTypeName name="org.eclipse.swt.widgets.Menu"/>
@@ -60,4 +59,5 @@
 <fullyQualifiedTypeName name="org.eclipse.jface.operation.IRunnableWithProgress"/>
 <fullyQualifiedTypeName name="org.eclipse.core.runtime.SubMonitor"/>
 <fullyQualifiedTypeName name="org.eclipse.core.runtime.IProgressMonitor"/>
+<fullyQualifiedTypeName name="com.ht.newwizard.NewFeedWizard"/>
 </qualifiedTypeNameHistroy>
